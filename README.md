@@ -20,7 +20,8 @@ kubectl create -f files/resources/cluster-issuer.yaml
 
 - Provide your domain instead of `dex-demo.***`
 - Provide your gitlab app clientId and clientSecret
-- Deploy chart
+- In groups set your existing gitlab group
+- Deploy chart with the following command
 
 ```bash
 kubectl create -f files/charts/dex.yaml
@@ -33,10 +34,10 @@ cp files/k3s-config.yaml /etc/rancher/k3s/k3s.yaml
 systemctl restart k3s
 ```
 
-### Create cluster role
+### Create cluster role binding
 
 ```bash
-kubectl create -f files/resources/cluster-role.yaml
+kubectl create -f files/resources/cluster-role-binding.yaml
 ```
 
 ### Try things
