@@ -16,7 +16,7 @@ spec:
   valuesContent: |-
     config:
       # Set it to a valid URL
-      issuer: https://dex-demo.nabokikh.hf.flant.com
+      issuer: https://dex-demo.xxx
 
       # See https://dexidp.io/docs/storage/ for more options
       storage:
