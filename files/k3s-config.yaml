@@ -1,5 +1,5 @@
 kube-apiserver-arg:
-- "oidc-issuer-url=https://dex-demo.nabokikh.hf.flant.com"
+- "oidc-issuer-url=https://dex-demo.xxx"
 - "oidc-client-id=example-app"
 - "oidc-username-claim=email"
 - "oidc-groups-claim=groups"
